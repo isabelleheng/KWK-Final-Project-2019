@@ -1,0 +1,137 @@
+.Main-Header{
+  display: flex;
+  justify-content: center;
+  font-family: 'Petit Formal Script', cursive;
+  color: #F8D4E0;
+  font-size: 75px;
+}
+
+.Slogan{
+  display: flex;
+  justify-content: center;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #FBFCFC;
+  font-size: 25px;
+}
+
+.topnav {
+  overflow: hidden;
+  background-color: #F8D4E0;
+  display: flex;
+  justify-content: space-around;
+  font-family: 'Raleway', sans-serif;
+}
+
+.topnav a {
+  color: black;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 23px;
+}
+
+.Home:hover {
+  background-color: #E6E6E6;
+  color: black;
+}
+
+.LGBTQ:hover {
+  background-color: #E6E6E6;
+  color: black;
+}
+
+.Gay:hover {
+  background-color: #E6E6E6;
+  color: black;
+}
+
+.Bisexual:hover {
+  background-color: #E6E6E6;
+  color: black;
+}
+
+.Transgender:hover {
+  background-color: #E6E6E6;
+  color: black;
+}
+
+.Queer:hover {
+  background-color: #E6E6E6;
+  color: black;
+}
+
+.Asex:hover {
+  background-color: #E6E6E6;
+  color: black;
+}
+
+.Pan:hover {
+  background-color: #E6E6E6;
+  color: black;
+}
+
+
+.topnav a.active {
+  background-color: #4CAF50;
+  color: white;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #888;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+.Input-Bar{
+
+  display: flex;
+  justify-content: center;
+  margin-top: 420px;
+  justify-content: space-around;
+  position: fixed;
+  bottom: 0;
+  left: 240px;
+
+
+}
+
+.submit-btn{
+margin-right: -300px;
+justify-content: center;
+margin-top: 20px;
+padding-left: 40px;
+}
+
+
+input[type=submit] {
+  border: none;
+  height: 45px;
+  width: 120px;
+  font-size: 20px;
+  color: black;
+  background-color:#F8D4E0;
+}
+
+.one{
+  font-size: 14px;
+  border-color: #F8D4E0;
+  border-style: solid;
+  margin-top:20px;
+  margin-bottom: 45px;
+  margin-left: 200px;
+  margin-right: 200px;
+  padding: 25px;
+}
